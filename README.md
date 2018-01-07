@@ -23,40 +23,29 @@ Approach: Multinomial Naive Bayes - Custom Approach with custom C and Python3
 
 	1.1 Files and Database
 	----------------------
-  **********************************************************************
-  Old - unused folders
-	
-  folder: clickbait/src
-
-	a. reader.c
-	b. tokenizer_truth.c
-	c. configure_database.c
-	d. tokenizer.c
-
-	folder: diplwmatiki/clickbait/
-
-	a. sweep.py
-	b. tidiness.py
-	c. classifier.py
   
-  
-  *************************************************************************
 Version 1.0 folders
 
 folder validation_data/src
 
   a. reader.c
-	b. tokenizer_truth.c
-	c. configure_database.c
-	d. tokenizer.c
+  
+  b. tokenizer_truth.c
+  
+  c. configure_database.c
+
+  d. tokenizer.c
 
 
 folder test_data/src
 
   a. reader_test.c
-	b. tokenizer_truth_test.c
-	c. configure_database_test.c
-	d. tokenizer_test.c
+  
+  b. tokenizer_truth_test.c
+  
+  c. configure_database_test.c
+  
+  d. tokenizer_test.c
 
 
 folder classifier
@@ -97,7 +86,7 @@ Dataset document collection: the whole collection consists of 2495 documents
 
 	Validation Data: 430 documents
 
-  Test data: 430 documents
+        Test data: 430 documents
 
 
 	2.2 Labels
@@ -171,7 +160,7 @@ NOTE: This project is configured to work with the above Dataset
 
 	The classifier will use as vocabulary the Features contained in the final_data table
 
-	The classifier follows the Multinomial Naive Bayes Model and produces log values as 'clickbait score', 'no clickbait score', as well as Labelling and confidence values
+	The classifier follows the Multinomial Naive Bayes Model and produces  values in a range of 0.0 to 1.0 as 'no-clickbait score', 'clickbait score', as well as Labelling and confidence values
 
 
 

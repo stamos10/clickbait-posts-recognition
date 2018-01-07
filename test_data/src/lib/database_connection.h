@@ -21,7 +21,7 @@ void connect_to_database_(){
       exit(1);
   }
 
-  if (mysql_real_connect(con, "localhost", "data_user", "p@cl!ckb@!tss",
+  if (mysql_real_connect(con, "localhost", "", "",
                                NULL, 0, NULL, 0) == NULL) {
 
       abort_action(con);

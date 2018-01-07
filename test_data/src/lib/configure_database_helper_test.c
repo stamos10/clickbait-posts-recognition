@@ -19,7 +19,7 @@ void connect_to_database(MYSQL *con){
       exit(1);
   }
 
-  if (mysql_real_connect(con, "localhost", "root", "cessna172stam",
+  if (mysql_real_connect(con, "localhost", "", "",
                                "bag_of_words", 0, NULL, 0) == NULL) {
 
       abort_action(con);

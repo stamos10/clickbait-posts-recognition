@@ -25,8 +25,9 @@ Approach: Multinomial Naive Bayes - Custom Approach with custom C and Python3
 	----------------------
   
 Version 1.0 folders
-
+-------------------------------
 folder validation_data/src
+-------------------------------
 
   a. reader.c
   
@@ -37,7 +38,12 @@ folder validation_data/src
   d. tokenizer.c
 
 
+
+
+
+-----------------------------
 folder test_data/src
+-----------------------------
 
   a. reader_test.c
   
@@ -47,8 +53,9 @@ folder test_data/src
   
   d. tokenizer_test.c
 
-
+-----------------------------
 folder classifier
+-----------------------------
 
   a. trinity.py
 
@@ -63,6 +70,7 @@ NOTE 1: Files are to be executed in above order of appearance
 ----------------------
 
 Name: bag_of_words
+
 Tables: LABELS, final_data, val_data, TEST_LABELS, test_data
 
 

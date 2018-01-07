@@ -37,7 +37,7 @@ def Main():
 	print("\n \n")
 
 	try:
-		connection=pymysql.connect(host='127.0.0.1', user='root', password='cessna172stam', database='bag_of_words', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
+		connection=pymysql.connect(host='127.0.0.1', user='', password='', database='bag_of_words', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
 		cur=connection.cursor()
 		
 		
